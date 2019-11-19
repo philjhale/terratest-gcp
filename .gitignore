@@ -1,0 +1,7 @@
+terraform-key.json
+terraform/.terraform/*
+terraform/modules/bucket-upload/.terraform/*
+tests/vendor/*
+terraform/modules/bucket-upload/terraform.tfstate
+terraform/modules/bucket-upload/terraform.tfstate.backup
+.DS_Store
