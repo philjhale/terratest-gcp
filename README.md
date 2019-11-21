@@ -1,5 +1,15 @@
 # terratest-gcp
-Playing with Terratest on GCP.
+Playing with Terratest on GCP. This repository contains a Terraform module and an automated test for that module.
+
+The Terraform module
+* Creates a Google Storage bucket
+* Uploads a file
+* Makes the file public
+
+The automated test uses the [Terratest](https://github.com/gruntwork-io/terratest) library to
+* Init and apply the Terraform module
+* Retrieve the `filePath` output variable
+* Confirm the content of the file
 
 # Prerequisites
 
